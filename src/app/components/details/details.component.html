@@ -1,0 +1,8 @@
+<a [routerLink]="['/']">Home</a>
+<div *ngIf="task">
+  <h2>{{ task.title }}</h2>
+  <p>{{ task.content }}</p>
+  <h4>Author: {{ task.author }}</h4>
+  <p>Upvotes: {{ task.upvote }}</p>
+  <p>Downvotes: {{ task.downvote }}</p>
+</div>

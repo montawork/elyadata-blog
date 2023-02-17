@@ -1,27 +1,66 @@
-# AngularCrash
+# Blog App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.5.
+This is a simple blog app built with Angular and json-server.
 
-## Development server
+## Prerequisites
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+To run this app, you'll need the following:
 
-## Code scaffolding
+- Node.js
+- Angular CLI
+- json-server
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installation
 
-## Build
+1. Clone this repository:
+   git clone https://github.com/montawork/elyadata-blog.git
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. Navigate to the blog-app directory:
+   cd elyadata-blog
 
-## Running unit tests
+3. Install the dependencies:
+   npm install
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Running the app
 
-## Running end-to-end tests
+1. Start the json-server:
+   npm run server
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. In a separate terminal, start the Angular app:
+   ng serve
 
-## Further help
+This will open the app in your default browser at http://localhost:4200/.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3. Use the app to view and add blogs.
+
+## Features
+
+- This app has the following features:
+- Displays a list of blogs previews
+- Each blog has a title, content, author, an upvote and downvote buttons.
+- Each blog has 'continue reading' link that redirects to the detailed blog page.
+- For each blog, the style is determined by the upvote/downvote ratio.
+- Full text search filter for the blog's content/title/author.
+- After submitting the blog, the app redirects to the main blogs list page.
+
+## API endpoints
+
+This app uses a simple json-server to serve the blogs data. The following endpoints are available:
+
+- GET /blogs: fetches all the blogs in the database.
+- GET /blogs/:id: fetches a blog by ID from the database.
+- POST /blogs: adds a new blog to the database.
+
+![](./1.png);
+
+![](./2.png);
+
+![](./3.png);
+
+![](./4.png);
+
+## Contact
+
+If you have any questions or feedback, feel free to contact me at:
+Email: hmonta.work@gmail.com
+[LinkedIn](https://www.linkedin.com/in/montassar-haddaji/)

@@ -1,0 +1,34 @@
+<form class="add-form" (ngSubmit)="onSubmit()" *ngIf="hasRoute('/add')">
+  <div class="form-control">
+    <label for="text">Title</label>
+    <input
+      type="text"
+      name="text"
+      [(ngModel)]="title"
+      id="text"
+      placeholder="Add Title"
+    />
+  </div>
+  <div class="form-control">
+    <label for="text">Author</label>
+    <input
+      type="text"
+      name="text"
+      [(ngModel)]="author"
+      id="text"
+      placeholder="Add Author"
+    />
+  </div>
+  <div class="form-control">
+    <label for="day">Content</label>
+    <input
+      type="text"
+      name="day"
+      [(ngModel)]="content"
+      id="day"
+      placeholder="Add Content"
+    />
+  </div>
+
+  <input type="submit" value="Save Task" class="btn btn-block" />
+</form>

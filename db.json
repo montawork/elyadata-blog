@@ -1,0 +1,44 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "9 Projects You Can Do to Become a Front-End Master in 2023",
+      "content": "Whether you’re new to programming or already an experienced developer in this industry, learning new concepts and languages/frameworks is mandatory to keep up with the rapid changes. Take, for example, React — open-sourced by Facebook just a shy four years ago, it’s already become the number one choice for JavaScript devs around the globe. Vue and Angular, of course, also have their legitimate follower base. And then there are Svelte and universal frameworks like Next.js or Nuxt.js. And Gatsby and Gridsome and Quasar … and, and, and. If you want to shine as an expert JavaScript developer, you should at least have some experience in different frameworks and libraries — besides doing your homework with good, old JS. To help you become a front-end master, I have collected nine projects, each with a specific topic and a different JavaScript framework or library as a tech stack that you can build and add to your portfolio. Remember, nothing helps you more than actually building stuff so go ahead, sharpen your mind, and make this happen.",
+      "author": "Simon Holdorf",
+      "upvote": 7,
+      "downvote": 6
+    },
+    {
+      "id": 2,
+      "title": "How To Wake Up at 5 A.M. Every Day",
+      "content": "Mesmerism has been a part of my life since I was a child; it’s the sense I have every time I establish a new habit. I mesmerized myself as a child to brush my teeth every day in the morning. As an adult, I’ve mesmerized myself to be healthy by exercising regularly. I’ve mesmerized myself to reflect on my life by adding a journaling routine. A surge of motivation struck me, knowing I had done a similar task in the past. I could become an early bird by mesmerizing myself. For the past 3 months, I’ve successfully transitioned into being an early bird. I go to sleep at 9 p.m. on average 6-7 nights a week. I currently wake up between 5–5:30 a.m. naturally. I might continue experimenting with waking up even earlier, but I’m happy with my current routine and don’t want to put too much pressure on myself. After all, it’s healthy to get 8 hours of sleep, isn’t it? I’ve tried to become an early bird many times in my life and this is the first time it has actually worked. Here’s what this process of “mesmerizing” myself looked like—and also a few words about what doesn’t work. What really worked was more gentle than you might expect. Consider this, then, a compassionate guide to waking up early.",
+      "author": "Bryan Ye",
+      "upvote": 4,
+      "downvote": 3
+    },
+    {
+      "id": 3,
+      "title": "Angular vs. React vs. Vue: A 2017 comparison",
+      "content": "Angular is a TypeScript-based Javascript framework. Developed and maintained by Google, it’s described as a “Superheroic JavaScript MVW Framework”. Angular (also “Angular 2+”, “Angular 2” or “ng2”) is the rewritten, mostly incompatible successor to AngularJS (also “Angular.js” or “AngularJS 1.x”). While AngularJS (the old one) was initially released in October 2010, it is still getting bug-fixes, etc. — the new Angular (sans JS) was introduced in September 2016 as version 2. The newest major release is version 4, as version 3 was skipped. Angular is used by Google, Wix, weather.com, healthcare.gov and Forbes (according to madewithangular, stackshare and libscore.com). React is described as “a JavaScript library for building user interfaces”. Initially released in March 2013, React was developed and is maintained by Facebook, which uses React components on several pages (not as a single-page application, however). According to this article by Chris Cordle, React is used far more at Facebook than Angular is at Google. React is also used by Airbnb, Uber, Netflix, Twitter, Pinterest, Reddit, Udemy, Wix, Paypal, Imgur, Feedly, Stripe, Tumblr, Walmart and others (according to Facebook, stackshare and libscore.com). Facebook is working on the release of React Fiber. It will change React under the hood — rendering is supposed to be much faster as a result — but things will be backward-compatible after the changes. Facebook talked about the changes at its developer conference in April 2017, and an unofficial article about the new architecture was released. React Fiber was released with React 16 in September 2017. Vue is one of the most rapidly growing JS frameworks in 2016. Vue describes itself as a “Intuitive, Fast and Composable MVVM for building interactive interfaces.” It was first released in February 2014 by ex-Google-employee Evan You (BTW: Evan wrote an interesting blog post about the marketing activities and numbers in the first week back then). It’s been quite a success, especially given that Vue is getting so much traction as a one-man show without the backing of a big company. Evan currently has a team of dozen core developers. In 2016, version 2 was released. Vue is used by Alibaba, Baidu, Expedia, Nintendo, GitLab — a list of smaller projects can be found on madewithvuejs.com.",
+      "author": "Jens Neuhaus",
+      "upvote": 4,
+      "downvote": 6
+    },
+    {
+      "id": 4,
+      "title": "What the web looks like without JavaScript",
+      "content": "A Berlin-based web developer — who codes JavaScript for a living — decided to go an entire day without JavaScript. Let’s face it — in an insane world where the average webpage is 2.4 megabytes — the same size as the 1993 game Doom — turning off JavaScript completely can seem like a sane thing to do. Well, here are her main observations after disabling JavaScript in the browser for a day: The web is really fast without JavaScript There aren’t any ads. No auto-playing videos or “tell us your email address” pop-ups. But… a lot of websites don’t work at all. Images don’t load, and forms can’t be submitted.",
+      "author": "Quincy Larson",
+      "upvote": 5,
+      "downvote": 5
+    },
+    {
+      "id": 5,
+      "title": "Top 5 API Clients for Mobile Phones",
+      "content": "API Tester is a free API client offering various features for working with different types of APIs. This app makes it possible to send GET and POST requests on the go straight from your phone. It is designed for testing REST, GraphQL, WebSocket & SOAP APIs, and it’s mobile-optimized for building requests with the advanced parameters you’re used to seeing on your PC. Three more reasons why you’ll love this app: import of collections from Postman, Swagger, Insomnia, and OpenAPI; automation to run all requests in sequence to reduce the testing time; and syntax-highlighted request body data redactor with a custom and convenient keyboard.",
+      "author": "Simon Holdorf",
+      "upvote": 0,
+      "downvote": 0
+    }
+  ]
+}

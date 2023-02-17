@@ -1,0 +1,32 @@
+<div
+  class="task"
+  (dblclick)="onToggle(task)"
+  [ngClass]="
+    task.upvote > task.downvote
+      ? 'upvote'
+      : task.upvote < task.downvote
+      ? 'downvote'
+      : ''
+  "
+>
+  <h3>
+    {{ task.title }}
+    <fa-icon
+      (click)="onDelete(task)"
+      [ngStyle]="{ color: 'red' }"
+      [icon]="faTimes"
+    ></fa-icon>
+  </h3>
+  <h4>{{ task.author }}</h4>
+  <p>
+    {{ task.content | slice : 0 : 100
+    }}{{ task.content.length > 100 ? "..." : "" }}
+    <a [routerLink]="['/blog', task.id]">Continue Reading</a>
+  </p>
+  <button class="btn" (click)="onUpvote(task)">
+    Upvote ⬆ ({{ task.upvote }})
+  </button>
+  <button class="btn" (click)="onDownvote(task)">
+    Dowvote ⬇ ({{ task.downvote }})
+  </button>
+</div>

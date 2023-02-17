@@ -1,0 +1,14 @@
+<app-add-task (onAddTask)="addTask($event)"></app-add-task>
+<input
+  class="search"
+  type="text"
+  placeholder="Search"
+  [(ngModel)]="searchTerm"
+/>
+<app-task-item
+  *ngFor="let task of filterBlogs(tasks)"
+  [task]="task"
+  (onDeleteTask)="deletTask(task)"
+  (onUpvoteTask)="upvoteTask(task)"
+  (onDownvoteTask)="downvoteTask(task)"
+></app-task-item>
